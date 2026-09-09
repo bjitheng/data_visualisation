@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Hub | Televisions</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="televisions">
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="logo-link" href="index.html" aria-label="Go to the home page">
+          <img src="PowerIcon.png" alt="Power logo" />
+        </a>
+
+        <div class="nav-links">
+          <a class="nav-link" href="index.html" data-page="home">Home</a>
+          <a class="nav-link" href="televisions.html" data-page="televisions">Televisions</a>
+          <a class="nav-link" href="about.html" data-page="about">About Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-content">
+      <section class="hero" aria-labelledby="televisions-heading">
+        <div class="hero-copy">
+          <span class="page-tag">Current page: Televisions</span>
+          <h1 id="televisions-heading">Television energy consumption in focus.</h1>
+          <p>
+            In the Australian market, televisions are one of the most visible appliance categories when it comes to
+            household electricity use. Screen size, panel type and operating mode all influence annual consumption.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html">Return home</a>
+            <a class="btn btn-secondary" href="about.html">Meet the team</a>
+          </div>
+        </div>
+
+        <aside class="panel" aria-label="Television energy summary">
+          <h2>Typical usage profile</h2>
+          <div class="kpi-grid">
+            <div class="stat-item">
+              <strong>55 W</strong>
+              <p>Typical power draw for a modern 55-inch LED television in standard mode.</p>
+            </div>
+            <div class="stat-item">
+              <strong>4.8 hrs</strong>
+              <p>Average daily viewing time for many Australian households.</p>
+            </div>
+            <div class="stat-item">
+              <strong>96 kWh</strong>
+              <p>Estimated annual use for a mid-sized TV used regularly across the year.</p>
+            </div>
+            <div class="stat-item">
+              <strong>20%</strong>
+              <p>Potential savings by lowering brightness and using eco mode.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section aria-labelledby="tv-comparison-heading">
+        <div class="section-header">
+          <h2 id="tv-comparison-heading">Estimated annual energy use</h2>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Display type</th>
+                <th>Typical size</th>
+                <th>Average power draw</th>
+                <th>Estimated yearly use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>LED</td>
+                <td>55-inch</td>
+                <td>55-75 W</td>
+                <td>80-120 kWh</td>
+              </tr>
+              <tr>
+                <td>QLED</td>
+                <td>65-inch</td>
+                <td>90-120 W</td>
+                <td>130-180 kWh</td>
+              </tr>
+              <tr>
+                <td>OLED</td>
+                <td>55-inch</td>
+                <td>70-100 W</td>
+                <td>100-150 kWh</td>
+              </tr>
+              <tr>
+                <td>Smart TV eco mode</td>
+                <td>All sizes</td>
+                <td>15-30% lower</td>
+                <td>15-30% reduction</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="chart-panel" aria-labelledby="chart-heading">
+        <div class="section-header">
+          <h2 id="chart-heading">Estimated yearly energy use by display type</h2>
+        </div>
+
+        <div class="chart-grid">
+          <div class="chart-wrapper">
+            <svg id="energyChart" viewBox="0 0 640 360" role="img" aria-label="Bar chart showing yearly electricity use for different television types"></svg>
+          </div>
+
+          <div class="chart-wrapper pie-wrapper">
+            <svg id="energyPieChart" viewBox="0 0 360 360" role="img" aria-label="Pie chart showing the share of annual electricity use by television type"></svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="story" aria-labelledby="tv-insight-heading">
+        <h2 id="tv-insight-heading">What Australian buyers should watch for</h2>
+        <p>
+          When shopping for a television in Australia, energy rating labels and standby consumption matter just as much as
+          picture quality. Larger screens often draw more power, but eco modes, automatic brightness control and lower
+          peak brightness settings can reduce consumption without significantly affecting enjoyment. The best long-term
+          choice balances performance with efficient operation over the life of the appliance.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Boon Jit Heng</p>
+      <p>GenAI Acknowledgement: This site was created with GitHub Copilot.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power Hub | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="logo-link" href="index.html" aria-label="Go to the home page">
+          <img src="PowerIcon.png" alt="Power logo" />
+        </a>
+
+        <div class="nav-links">
+          <a class="nav-link" href="index.html" data-page="home">Home</a>
+          <a class="nav-link" href="televisions.html" data-page="televisions">Televisions</a>
+          <a class="nav-link" href="about.html" data-page="about">About Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-content">
+      <section class="hero" aria-labelledby="home-heading">
+        <div class="hero-copy">
+          <span class="page-tag">Current page: Home</span>
+          <h1 id="home-heading">Powering better energy decisions in Australia.</h1>
+          <p>
+            The Australian market is seeing rapid growth in efficient appliances as households balance comfort,
+            performance and electricity bills. This site highlights the role of televisions and other appliances in
+            household energy use, with a focus on smarter choices for everyday living.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="televisions.html">View TV energy data</a>
+            <a class="btn btn-secondary" href="about.html">Learn about our mission</a>
+          </div>
+        </div>
+
+        <aside class="panel" aria-label="Market snapshot">
+          <h2>Australian appliance snapshot</h2>
+          <div class="kpi-grid">
+            <div class="stat-item">
+              <strong>31%</strong>
+              <p>of household electricity use is linked to appliance load in modern homes.</p>
+            </div>
+            <div class="stat-item">
+              <strong>8.4 kWh</strong>
+              <p>average weekly energy use for entertainment devices in a mid-sized household.</p>
+            </div>
+            <div class="stat-item">
+              <strong>1.7x</strong>
+              <p>difference between low-energy LED displays and older display technology.</p>
+            </div>
+            <div class="stat-item">
+              <strong>42%</strong>
+              <p>of households now choose energy-labelled electronics when replacing older models.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section aria-labelledby="market-overview-heading">
+        <div class="section-header">
+          <h2 id="market-overview-heading">Why appliance energy matters</h2>
+        </div>
+
+        <div class="info-grid">
+          <article class="info-card">
+            <div class="icon">⚡</div>
+            <h3>Household demand</h3>
+            <p>
+              TVs, consoles and media devices remain active for hours each day, making standby settings and efficient
+              mode selection relevant for reducing annual power use.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="icon">📊</div>
+            <h3>Market trends</h3>
+            <p>
+              The Australian market is moving toward larger screens, smarter automation and lower power consumption,
+              creating better options for consumers and lower running costs over time.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="icon">🌱</div>
+            <h3>Environmental outcome</h3>
+            <p>
+              Lower appliance consumption helps reduce emissions intensity in electricity generation and supports more
+              sustainable homes across Australian cities and regional communities.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" aria-labelledby="home-story-heading">
+        <h2 id="home-story-heading">Placeholder insight for the Australian market</h2>
+        <p>
+          In Australia, appliance energy use is shaped by climate, household size and the increasing use of connected
+          entertainment systems. Modern televisions are now designed to balance brightness, motion smoothing and smart
+          platform activity, all of which influence daily electricity draw. Consumers can lower consumption by choosing
+          energy-efficient star-rated models and reducing screen brightness when possible.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Boon Jit Heng</p>
+      <p>GenAI Acknowledgement: This site was created with GitHub Copilot.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
